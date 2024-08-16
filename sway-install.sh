@@ -43,7 +43,7 @@ bash ~/bookworm-scripts/resources/nwg-look
 
 # text editor
 # sudo apt install -y l3afpad 
-# sudo apt install -y geany geany-plugin-addons geany-plugin-git-changebar geany-plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-vimode
+sudo apt install -y geany geany-plugin-addons geany-plugin-git-changebar geany-plugin-overview geany-plugin-spellcheck geany-plugin-treebrowser geany-plugin-vimode
 # sudo apt install -y gedit
 
 # EXA installation
@@ -52,11 +52,11 @@ bash ~/bookworm-scripts/resources/nwg-look
 sudo apt install -y exa
 
 # Printing and bluetooth (if needed)
-# sudo apt install -y cups system-config-printer simple-scan
-# sudo apt install -y bluez blueman
+sudo apt install -y cups system-config-printer simple-scan
+sudo apt install -y bluez blueman
 
-# sudo systemctl enable cups
-# sudo systemctl enable bluetooth
+sudo systemctl enable cups
+sudo systemctl enable bluetooth
 
 # PDF 
 sudo apt install -y evince pdfarranger
